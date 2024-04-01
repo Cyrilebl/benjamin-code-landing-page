@@ -1,3 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+@font-face {
+  font-family: "gtfxebl";
+  src: url("../fonts/GT-Flexa-Compressed-Black-Trial.otf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Fonts
+$main-font: "Roboto Mono", monospace;
+$title-font: "gtfxebl";
+
 // Principales
 $background: #000431;
 $text: #fff500;

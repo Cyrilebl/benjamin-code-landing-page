@@ -2,15 +2,6 @@
 @import "./_animations";
 @import "./_placeholders";
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
-
-@font-face {
-  font-family: "gtfxebl";
-  src: url("../fonts/GT-Flexa-Compressed-Black-Trial.otf") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
-
 *,
 *::before,
 *::after {
@@ -31,7 +22,7 @@ body {
 /* Header */
 
 header {
-  font-family: "gtfxebl";
+  font-family: $title-font;
 }
 
 /* Title */
@@ -88,7 +79,7 @@ header {
 /* Introduction */
 
 .intro {
-  font-family: "Roboto Mono", monospace;
+  font-family: $main-font;
   border: $border;
   display: grid;
   grid-template-columns: 1fr 1fr;
