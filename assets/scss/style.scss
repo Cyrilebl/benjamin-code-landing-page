@@ -135,7 +135,7 @@ header {
 
 .right p {
   color: $text;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .right span {
@@ -152,6 +152,7 @@ header {
 
 .email {
   display: flex;
+  align-items: center;
   gap: 10px;
   margin-top: 20px;
 }
@@ -188,9 +189,7 @@ header {
     grid-row: 1;
   }
 
-  .right p {
-    font-size: 1.1em;
-  }
+  /* Email */
 
   .email {
     justify-content: center;
